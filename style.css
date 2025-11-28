@@ -1,0 +1,72 @@
+body {
+    margin: 0 0 50px 0;
+    background-color: #FBF9FF;
+    color: #111020;
+    font-family: "Montserrat", sans-serif;
+}
+nav {
+    background-color: #111020;
+    height: 60px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+ul li {
+    float: left;
+}
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 30px;
+    font-size: 22px;
+    font-weight: 800;
+    color: #FBF9FF;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+ul li a:hover {
+    letter-spacing: 2px;
+}
+.header {
+    background-image: url(https://images.pexels.com/photos/4842574/pexels-photo-4842574.jpeg);
+    object-fit: fill;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    position: relative;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-content {
+    position: absolute;
+    align-self: center;
+    justify-self: center;
+    font-size: 60px;
+    color: #FBF9FF;
+}
+.card {
+    background-color: #ae7fae;
+    height: fit-content;
+    padding: 100px;
+}
+button {
+    all: unset;
+    background-color: #111020;
+    font-weight: 600;
+    color: #FBF9FF;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+button:hover {
+    letter-spacing: 2px;
+}
