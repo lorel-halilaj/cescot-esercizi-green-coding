@@ -2,7 +2,7 @@
     text-decoration: none;
 }
 body {
-    margin: 0px 100px 50px;
+    margin: 0px 100px;
     background-color: #F6F4F1;
     color: #26201F;
     font-family: "Inconsolata", monospace, sans-serif;
@@ -54,7 +54,7 @@ nav {
 i {
     color: #C72A09;
 }
-.main-container {
+.welcome-container {
     margin-top: 150px;
     display: flex;
     justify-content: left;
@@ -74,6 +74,7 @@ i {
     filter: grayscale(0%);
 }
 .container-text {
+    display: block;
     width: 50%;
 }
 .container-text h1 {
@@ -86,6 +87,18 @@ i {
 .container-text p {
     font-size: 25px;
     padding: 5px 40px;
+}
+.container-text button {
+    all: unset;
+    background-color: #C72A09;
+    font-weight: 700;
+    color: #FBF9FF;
+    width: 150px;
+    height: 40px;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    align-self: center;
 }
 strong {
     color: #C72A09;
