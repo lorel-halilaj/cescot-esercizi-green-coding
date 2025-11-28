@@ -7,53 +7,7 @@ body {
     color: #26201F;
     font-family: "Inconsolata", monospace, sans-serif;
 }
-nav {
-    background-color: #F6F4F1;
-    position: fixed; /* Keep navbar visible when scrolling */
-    top: 0px; /* match body top margin */
-    left: 100px; /* match body left margin */
-    right: 100px; /* match body right margin */
-    padding: 10px 20px; /* smaller padding so nav is compact */
-    z-index: 1000; /* ensure nav stays on top of other content */
-}
-.nav-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.nav-logo {
-    display: flex;
-    align-items:center;
-}
-.nav-logo p{
-    color: #C72A09;
-    text-transform: uppercase;
-    font-size: 1vw;
-    font-weight: 700;
-    letter-spacing: 2px;
-    padding-left: 30px;
-}
-.nav-links li {
-    list-style: none;
-    display: inline-block;
-    font-size: 1.5vw;
-    font-weight: 700;
-    padding: 20px;
-}
-.nav-links a {
-    text-transform: uppercase;
-    color: #26201F;
-}
-.nav-links a:hover{
-    text-transform: uppercase;
-    color: #C72A09;
-    text-decoration: underline;
-}
-i {
-    color: #C72A09;
-}
 .welcome-container {
-    margin-top: 150px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -61,6 +15,7 @@ i {
     grid-row-gap: 0px;
 }
 .image-container { 
+    height: max-content;
     grid-area: 1 / 1 / 3 / 2;
 }
 .image-container img {
@@ -105,11 +60,8 @@ button {
     font-weight: 700;
     border: solid #C72A09 2px;
     text-align: center;
+    text-transform: uppercase;
 }
 button:hover {
     text-decoration: underline;
-}
-strong {
-    color: #C72A09;
-    font-weight: 700;
 }
