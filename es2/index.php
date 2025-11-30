@@ -28,7 +28,7 @@
                     <li><a href="#about">About us</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#">Services</a></li>
-                    <li><a href="#">Contacts</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
                 </ul>
             </div>
             <div class="nav-social">
@@ -57,6 +57,7 @@
             </div>
         </div>
     </div>
+    <div id="features"></div>
     <div class="features-container">
         <div class="text-container">
             <h1>We get it.</h1>
@@ -141,5 +142,60 @@
             }
         ?>
     </div>
+    <div id="services"></div>
+    <div class=text-container>
+        <h1>Our services.</h1>
+    </div>
+    <div class="features-container">
+        <div class="card-container">
+            <div class="center">
+                <h2>Personal Branding</h2>
+                <p>Whether you're an influencer, a creative entrepreneur, or just need a new look for your professional profile, we focus on capturing your authentic vibe and making you look utterly iconic.</p>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="center">
+                <h2>Business & Commercial Content</h2>
+                <p>Your brand is everything. We create eye-catching visual content—from product photography to lifestyle campaigns—that is trend-aware and designed to convert.</p>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="center">
+                <h2>Creative & Editorial Projects</h2>
+                <p>Got a big, complex visual idea? We live for the conceptual. This service is for musicians, artists, designers, and anyone with a moodboard that hits different.</p>
+            </div>
+        </div>
+    </div>
+    <div id="contacts"></div>
+    <div class="container">
+        <div class="first-element">
+            <h1>Let's Collab: <br>DM Us the Deets!</h1>
+        </div>
+        <div class="second-element">
+            <div class="text-container">
+                <p>Ready to stop scrolling and start slaying? <br><br>
+                We're all about high-speed communication. Whether you have a fully-formed vision, a fire moodboard, or just a vague idea that needs a <strong>vibe check</strong>, hit us up! This is your direct line to the <strong>saSha creative team</strong>. <br><br>
+                Fill out the form below and tell us everything. The more details you share, the faster we can tailor the perfect session for you.</p>
+            </div>
+            <form>
+                <div>
+                    <label for="full_name">Full name</label><br>
+                    <input type="text" id="full_name" name="full_name" placeholder="Example: Alex Taylor">
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email</label><br>
+                    <input type="text" id="email" name="email" placeholder="Your most-used email">
+                </div>
+                <br>
+                <div>
+                    <label for="idea">Your Vibe / Idea</label><br>
+                    <textarea id="idea" name="idea" placeholder="Describe your moodboard, goal, or the vibe you're going for. Example: 'I want dark aesthetic photos for my jewelry brand.'"></textarea>
+                </div><br>
+                <button type="submit" onClick="submit_form()">Submit</button>
+            </form>
+        </div>
+    </div>
+<script src="script.js"></script>   
 </body>
 </html>
