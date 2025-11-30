@@ -37,7 +37,8 @@ nav {
     min-height: 100%
 }
 .center {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -91,7 +92,6 @@ nav {
     grid-area: 1 / 2 / 2 / 3;
 }
 .image-container {
-    
     height: 100%;
     width: 100%;
 }
@@ -118,6 +118,15 @@ nav {
     border: solid #C72A09;
     color: #C72A09;
 }
+.portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+}
+.portfolio-container img {
+    width: 100%;
+    object-fit: cover;
+}
 h1 {
     object-fit: contain;
     font-size: 8vw;
@@ -128,6 +137,13 @@ h1 {
 h2 {
     font-size: 3vw;
     text-align: center;
+}
+h3 {
+    font-size: 8vw;
+    color: #C72A09;
+    justify-self: right;
+    text-transform: uppercase;
+    margin: 100px 0 0 0;
 }
 p {
     font-size: 1.5vw;
