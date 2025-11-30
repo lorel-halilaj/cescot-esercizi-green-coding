@@ -128,7 +128,7 @@
             // Loop through each image file we found
             foreach($images as $i) {
                 // $i holds one image filename during each loop iteration
-                printf("<img class='grayscale fill' src='portfolio/%s'>",
+                printf("<img class='grayscale fill' src='portfolio/%s' loading='lazy'>",
                 // printf() outputs formatted text
                 // %s is a placeholder that gets replaced by the next argument
                 // This creates: <img class='grayscale fill' src='portfolio/image.jpg'>
