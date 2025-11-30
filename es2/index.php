@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>saSha • photography studio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,7 +25,7 @@
             <div class="nav-links">
                 <ul>
                     <li><a href="#about">About us</a></li>
-                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Contacts</a></li>
                 </ul>
@@ -99,7 +99,8 @@
             </div>
         </div>
     </div>
-    <div id="portfolio">
+    <div id="portfolio"></div>
+    <div class=text-container>
         <h3>Portfolio</h3>
         <p>Welcome to the saSha gallery—your ultimate source of visual inspiration. <br><br>
         This portfolio isn't just a collection of our best work; it's a testament to the <strong>aesthetic mastery and viral potential</strong> we bring to every single client. Here, you’ll see how we translate raw ideas and authentic vibes into polished, high-impact content designed to dominate the digital landscape. <br><br>
