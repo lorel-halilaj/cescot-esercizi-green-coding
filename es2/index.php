@@ -27,7 +27,7 @@
                 <ul>
                     <li><a href="#about">About us</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#">Services</a></li>
+                    <li><a href="#services">Services</a></li>
                     <li><a href="#contacts">Contacts</a></li>
                 </ul>
             </div>
@@ -103,7 +103,7 @@
     </div>
     <div id="portfolio"></div>
     <div class=text-container>
-        <h3>Portfolio</h3>
+        <h1>Portfolio</h1>
         <p>Welcome to the saSha gallery—your ultimate source of visual inspiration. <br><br>
         This portfolio isn't just a collection of our best work; it's a testament to the <strong>aesthetic mastery and viral potential</strong> we bring to every single client. Here, you’ll see how we translate raw ideas and authentic vibes into polished, high-impact content designed to dominate the digital landscape. <br><br>
         <strong>We don’t chase trends. We set them.</strong> <br><br>
