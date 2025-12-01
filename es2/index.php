@@ -19,7 +19,8 @@
                     alt="logo rosso di saSha studio"
                     height="80">
                 </a>
-                <p>photography studio<br>
+                <p>
+                    photography studio<br>
                     since 2010
                 </p>
             </div>
@@ -49,35 +50,53 @@
         </div>
         <div class="second-column">
             <div class="text-container">
-                <h1>Welcome to the new generation studio</h1>
-                <p>Stop scrolling, you've found us. <br><br>
-                We're <strong>saSha</strong>, and we're not your parents' photo studio. We're the place where digital natives come to capture their story, IRL and URL. <br><br>
-                Forget the stiff poses and the cheugy backdrops. We're fluent in the language of the internet: from aesthetic portraits that slay on your feed, to bold brand imagery that tells your audience "we understood the assignment."<br><br>
-                Ready to capture content that earns a double-tap? <strong>Let's make some magic.</strong></p>
+                <h1>
+                    Welcome to the new generation studio
+                </h1>
+                <p>
+                    Stop scrolling, you've found us. <br><br>
+                    We're <strong>saSha</strong>, and we're not your parents' photo studio. We're the place where digital natives come to capture their story, IRL and URL. <br><br>
+                    Forget the stiff poses and the cheugy backdrops. We're fluent in the language of the internet: from aesthetic portraits that slay on your feed, to bold brand imagery that tells your audience "we understood the assignment."<br><br>
+                    Ready to capture content that earns a double-tap? <strong>Let's make some magic.</strong>
+                </p>
             </div>
         </div>
     </div>
     <div id="features"></div>
     <div class="features-container">
         <div class="text-container">
-            <h1>We get it.</h1>
+            <h1>
+                We get it.
+            </h1>
         </div>
         <div class="card-container">
             <div class="center">
-                <h2>High-Speed Edits</h2>
-                <p>We know nobody has time for weeks of waiting. Your gallery drops fast.</p>
+                <h2>
+                    High-Speed Edits
+                </h2>
+                <p>
+                    We know nobody has time for weeks of waiting. Your gallery drops fast.
+                </p>
             </div>
         </div>
         <div class="card-container">
             <div class="center">
-                <h2>Authentic Vibes</h2>
-                <p>Your session is a safe space to be 100% that person. No cap.</p>
+                <h2>
+                    Authentic Vibes
+                </h2>
+                <p>
+                    Your session is a safe space to be 100% that person. No cap.
+                </p>
             </div>
         </div>
         <div class="card-container">
             <div class="center">
-                <h2>Main Character Energy</h2>
-                <p>We focus on making you the highlight, whether it's for a TikTok profile, a creative project, or just living your best life.</p>
+                <h2>
+                    Main Character Energy
+                </h2>
+                <p>
+                    We focus on making you the highlight, whether it's for a TikTok profile, a creative project, or just living your best life.
+                </p>
             </div>
         </div>
     </div>
@@ -85,11 +104,15 @@
     <div class="container">
         <div class="first-column">
             <div class="text-container">
-                <h1>Not Your Average Studio</h1>
-                <p>We’re more than just photography. We’re a Vibe Shift. <br><br>
-                We know you’re tired of the corporate, low-effort content clogging up your feed. At saSha, we live at the intersection of <strong>culture, creativity, and code</strong>. Founded by creatives who grew up with a camera roll full of memories and a deep understanding of what makes content go viral, we built this studio to be different. <br><br>
-                <strong>Our Philosophy? It's giving ICONIC.</strong><br><br>
-                We believe that photography in the new generation isn't about documentation—it's about personal branding, aesthetic immersion, and instant connection. We don't just take pictures; we craft visual assets designed for the digital world.</p>
+                <h1>
+                    Not Your Average Studio
+                </h1>
+                <p>
+                    We’re more than just photography. We’re a Vibe Shift. <br><br>
+                    We know you’re tired of the corporate, low-effort content clogging up your feed. At saSha, we live at the intersection of <strong>culture, creativity, and code</strong>. Founded by creatives who grew up with a camera roll full of memories and a deep understanding of what makes content go viral, we built this studio to be different. <br><br>
+                    <strong>Our Philosophy? It's giving ICONIC.</strong><br><br>
+                    We believe that photography in the new generation isn't about documentation—it's about personal branding, aesthetic immersion, and instant connection. We don't just take pictures; we craft visual assets designed for the digital world.
+                </p>
             </div>
         </div>
         <div class="second-column">
@@ -103,11 +126,15 @@
     </div>
     <div id="portfolio"></div>
     <div class=text-container>
-        <h1>Portfolio</h1>
-        <p>Welcome to the saSha gallery—your ultimate source of visual inspiration. <br><br>
-        This portfolio isn't just a collection of our best work; it's a testament to the <strong>aesthetic mastery and viral potential</strong> we bring to every single client. Here, you’ll see how we translate raw ideas and authentic vibes into polished, high-impact content designed to dominate the digital landscape. <br><br>
-        <strong>We don’t chase trends. We set them.</strong> <br><br>
-        Every image is a moment captured, edited, and optimized for maximum impact—a true representation of what happens when <strong>vision meets the new generation studio</strong>.</p>
+        <h1>
+            Portfolio
+        </h1>
+        <p>
+            Welcome to the saSha gallery—your ultimate source of visual inspiration. <br><br>
+            This portfolio isn't just a collection of our best work; it's a testament to the <strong>aesthetic mastery and viral potential</strong> we bring to every single client. Here, you’ll see how we translate raw ideas and authentic vibes into polished, high-impact content designed to dominate the digital landscape. <br><br>
+            <strong>We don’t chase trends. We set them.</strong> <br><br>
+            Every image is a moment captured, edited, and optimized for maximum impact—a true representation of what happens when <strong>vision meets the new generation studio</strong>.
+        </p>
     </div>
     <div class="portfolio-container fill">
         <?php
@@ -149,33 +176,49 @@
     <div class="features-container">
         <div class="card-container">
             <div class="center">
-                <h2>Personal Branding</h2>
-                <p>Whether you're an influencer, a creative entrepreneur, or just need a new look for your professional profile, we focus on capturing your authentic vibe and making you look utterly iconic.</p>
+                <h2>
+                    Personal Branding
+                </h2>
+                <p>
+                    Whether you're an influencer, a creative entrepreneur, or just need a new look for your professional profile, we focus on capturing your authentic vibe and making you look utterly iconic.
+                </p>
             </div>
         </div>
         <div class="card-container">
             <div class="center">
-                <h2>Business & Commercial Content</h2>
-                <p>Your brand is everything. We create eye-catching visual content—from product photography to lifestyle campaigns—that is trend-aware and designed to convert.</p>
+                <h2>
+                    Business & Commercial Content
+                </h2>
+                <p>
+                    Your brand is everything. We create eye-catching visual content—from product photography to lifestyle campaigns—that is trend-aware and designed to convert.
+                </p>
             </div>
         </div>
         <div class="card-container">
             <div class="center">
-                <h2>Creative & Editorial Projects</h2>
-                <p>Got a big, complex visual idea? We live for the conceptual. This service is for musicians, artists, designers, and anyone with a moodboard that hits different.</p>
+                <h2>
+                    Creative & Editorial Projects
+                </h2>
+                <p>
+                    Got a big, complex visual idea? We live for the conceptual. This service is for musicians, artists, designers, and anyone with a moodboard that hits different.
+                </p>
             </div>
         </div>
     </div>
     <div id="contacts"></div>
     <div class="container">
         <div class="first-element">
-            <h1>Let's Collab: <br>DM Us the Deets!</h1>
+            <h1>
+                Let's Collab: <br>DM Us the Deets!
+            </h1>
         </div>
         <div class="second-element">
             <div class="text-container">
-                <p>Ready to stop scrolling and start slaying? <br><br>
-                We're all about high-speed communication. Whether you have a fully-formed vision, a fire moodboard, or just a vague idea that needs a <strong>vibe check</strong>, hit us up! This is your direct line to the <strong>saSha creative team</strong>. <br><br>
-                Fill out the form below and tell us everything. The more details you share, the faster we can tailor the perfect session for you.</p>
+                <p>
+                    Ready to stop scrolling and start slaying? <br><br>
+                    We're all about high-speed communication. Whether you have a fully-formed vision, a fire moodboard, or just a vague idea that needs a <strong>vibe check</strong>, hit us up! This is your direct line to the <strong>saSha creative team</strong>. <br><br>
+                    Fill out the form below and tell us everything. The more details you share, the faster we can tailor the perfect session for you.
+                </p>
             </div>
             <form>
                 <div>
