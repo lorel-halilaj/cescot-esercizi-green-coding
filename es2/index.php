@@ -196,9 +196,9 @@
             </form>
         </div>
     </div>
-    <footer>
-        <p class="center">
-            Sito web realizzato da Lorel Halilaj per il corso CESCOT - Analista programmatore FrontEnd © 2025
+    <footer class="center">
+        <p>
+            Sito web realizzato da Lorel Halilaj per il corso CESCOT Analista programmatore FrontEnd © 2025
         </p>
     </footer>
 <script src="script.js"></script>   
