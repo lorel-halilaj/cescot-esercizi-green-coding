@@ -15,7 +15,7 @@
     <nav>
         <div class="nav-container">
             <div class="nav-logo">
-                <a href="#"><img src="saSha-logo.svg" 
+                <a href="#" title="Link to the homepage"><img src="saSha-logo.svg" 
                     alt="logo rosso di saSha studio"
                     height="80">
                 </a>
@@ -26,10 +26,10 @@
             </div>
             <div class="nav-links">
                 <ul>
-                    <li><a href="#about">About us</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="#about" title="Link to the about us section">About us</a></li>
+                    <li><a href="#portfolio" title="Link to the portfolio section">Portfolio</a></li>
+                    <li><a href="#services" title="Link to the services section">Services</a></li>
+                    <li><a href="#contacts" title="Link to the contacts section">Contacts</a></li>
                 </ul>
             </div>
             <div class="nav-social">
