@@ -144,6 +144,15 @@ textarea {
     height: 50px;
     border-bottom: solid 2px #C72A09;
 }
+footer {
+    background-color: #26201F;
+    padding: 50px;
+    margin: 100px -100px 0 -100px;
+}
+footer p {
+    font-size: 1vw;
+    color: #F6F4F1;
+}
 h1 {
     object-fit: contain;
     font-size: 8vw;

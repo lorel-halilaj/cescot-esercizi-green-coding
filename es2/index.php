@@ -133,7 +133,7 @@
                 printf("<img class='grayscale fill' src='portfolio/%s' loading='lazy'>",
                 // printf() outputs formatted text
                 // %s is a placeholder that gets replaced by the next argument
-                // This creates: <img class='grayscale fill' src='portfolio/image.jpg'>
+                // This creates: <img class='grayscale fill' src='portfolio/image.jpg' loading='lazy'>
                 rawurldecode(basename($i))
                 // basename($i) extracts just the filename (removes the full path)
                 // rawurldecode() converts URL-encoded characters back to normal
@@ -196,6 +196,11 @@
             </form>
         </div>
     </div>
+    <footer>
+        <p class="center">
+            Sito web realizzato da Lorel Halilaj per il corso CESCOT - Analista programmatore FrontEnd © 2025
+        </p>
+    </footer>
 <script src="script.js"></script>   
 </body>
 </html>
