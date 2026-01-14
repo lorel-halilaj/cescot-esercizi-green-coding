@@ -12,8 +12,6 @@
     </h1>
         <div>
             <?php
-
-            
                 //inizializza la connessione al database
                 $mysqli = mysqli_connect(
                     getEnv("dbHost"),
@@ -21,22 +19,41 @@
                     getEnv("dbPass"),
                     getEnv("dbName")
                 );
-
                 //verifica la connessione
                 if (!$mysqli) {
                     die("Connection failed: " . mysqli_connect_error());
                 }
-
                 //esegui una query di esempio
                 $query = 'SELECT * FROM galleria';
-
                 $result = mysqli_query($mysqli, $query);
-
                 //ciclo sulle righe restituite e stampo il valore di ogni riga
                 while ($row = mysqli_fetch_assoc($result)) {
                     echo '<img src="' . $row['url'] . '" alt="' . $row['didascalia'] . '">';
                 }
             ?>
         </div>
+        <?php
+            if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+            $url = mysqli_real_escape_string($mysqli, $_POST['url']);
+            $didascalia = mysqli_real_escape_string($mysqli, $_POST['didascalia']);
+            
+            $insertQuery = "INSERT INTO galleria (url, didascalia) VALUES ('$url', '$didascalia')";
+            if (mysqli_query($mysqli, $insertQuery)) {
+                echo "<p>Immagine aggiunta con successo!</p>";
+                header("Refresh:0");
+            } else {
+                echo "<p>Errore: " . mysqli_error($mysqli) . "</p>";
+            }
+            }
+        ?>
+        <form method="post">
+            <label for="url">Image URL:</label>
+            <input type="text" id="url" name="url" required>
+            <br>
+            <label for="didascalia">Caption:</label>
+            <input type="text" id="didascalia" name="didascalia" required>
+            <br>
+            <input type="submit" value="Add Image">
+        </form>
 </body>
 </html>
