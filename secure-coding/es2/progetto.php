@@ -4,22 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Database</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>
-        Il testo che segue arriva dal database
+        Gallery
     </h1>
         <div>
             <?php
 
             
                 //inizializza la connessione al database
-                $databaseHost = 'localhost';
-                $databaseName = 'cescot';
-                $databaseUsername = 'root';
-                $databasePassword = '';
-
-                $mysqli = mysqli_connect($databaseHost, $databaseUsername, $databasePassword, $databaseName);
+                $mysqli = mysqli_connect(
+                    getEnv("dbHost"),
+                    getEnv("dbUser"),
+                    getEnv("dbPass"),
+                    getEnv("dbName")
+                );
 
                 //verifica la connessione
                 if (!$mysqli) {
@@ -27,13 +28,13 @@
                 }
 
                 //esegui una query di esempio
-                $query = 'SELECT * FROM content';
+                $query = 'SELECT * FROM galleria';
 
                 $result = mysqli_query($mysqli, $query);
 
                 //ciclo sulle righe restituite e stampo il valore di ogni riga
                 while ($row = mysqli_fetch_assoc($result)) {
-                    echo '<p>' . $row['value'] . '</p><br>';
+                    echo '<img src="' . $row['url'] . '" alt="' . $row['didascalia'] . '">';
                 }
             ?>
         </div>

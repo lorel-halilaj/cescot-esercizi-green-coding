@@ -1,0 +1,4 @@
+    SetEnv dbHost "localhost"
+    SetEnv dbName "cescot"
+    SetEnv dbUser "root"
+    SetEnv dbPass ""
