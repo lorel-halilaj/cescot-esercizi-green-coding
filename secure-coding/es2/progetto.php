@@ -30,8 +30,6 @@
                 while ($row = mysqli_fetch_assoc($result)) {
                     echo '<img src="' . $row['url'] . '" alt="' . $row['didascalia'] . '">';
                 }
-                //chiudi la connessione al database
-                mysqli_close($mysqli);
             ?>
         </div>
         <?php
