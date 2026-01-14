@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Database</title>
+    <title>Gallery da Database</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -30,6 +30,8 @@
                 while ($row = mysqli_fetch_assoc($result)) {
                     echo '<img src="' . $row['url'] . '" alt="' . $row['didascalia'] . '">';
                 }
+                //chiudi la connessione al database
+                mysqli_close($mysqli);
             ?>
         </div>
         <?php
