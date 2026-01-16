@@ -19,7 +19,7 @@
             <br>
             <input type="submit" value="Add Image">
         </form>
-                <?php
+        <?php
             if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $url = mysqli_real_escape_string($mysqli, $_POST['url']);
             $didascalia = mysqli_real_escape_string($mysqli, $_POST['didascalia']);
