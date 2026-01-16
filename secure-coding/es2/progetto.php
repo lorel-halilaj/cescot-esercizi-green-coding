@@ -31,7 +31,7 @@
                 if (mysqli_query($mysqli, $insertQuery)) {
                     header("Refresh:0");
                 } else {
-                    echo "<p>Errore: " . mysqli_error($mysqli) . "</p><br><a href='progetto.php'>Torna indietro</a>.";
+                    echo "<p>Errore: " . mysqli_error($mysqli) . "<br><a href='progetto.php'>Torna indietro</a>.</p>";
                 }
             }
         ?>
