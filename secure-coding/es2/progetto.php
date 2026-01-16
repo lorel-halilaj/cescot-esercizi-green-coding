@@ -45,6 +45,7 @@
             <br>
             <input type="submit" value="Add Image">
         </form>
+        <br>
         <div>
             <?php
                 //esegui la query per selezionare tutte le immagini dalla tabella galleria
