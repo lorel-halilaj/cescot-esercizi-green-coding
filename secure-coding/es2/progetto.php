@@ -48,7 +48,7 @@
         <div>
             <?php
                 //esegui la query per selezionare tutte le immagini dalla tabella galleria
-                $query = 'SELECT * FROM galleria';
+                $query = 'SELECT * FROM galleria ORDER BY id DESC';
                 $result = mysqli_query($mysqli, $query);
                 //ciclo sulle righe restituite e stampo il valore di ogni riga
                 while ($row = mysqli_fetch_assoc($result)) {
