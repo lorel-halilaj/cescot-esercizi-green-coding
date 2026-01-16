@@ -24,16 +24,16 @@
             }
             //gestione del form di inserimento
             if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-            $url = mysqli_real_escape_string($mysqli, $_POST['url']);
-            $didascalia = mysqli_real_escape_string($mysqli, $_POST['didascalia']);
-            
-            $insertQuery = "INSERT INTO galleria (url, didascalia) VALUES ('$url', '$didascalia')";
-            if (mysqli_query($mysqli, $insertQuery)) {
-                echo "<p>Immagine aggiunta con successo!</p>";
-                header("Refresh:0");
-            } else {
-                echo "<p>Errore: " . mysqli_error($mysqli) . "</p><br><a href='progetto.php'>Torna indietro</a>.";
-            }
+                $url = mysqli_real_escape_string($mysqli, $_POST['url']);
+                $didascalia = mysqli_real_escape_string($mysqli, $_POST['didascalia']);
+                
+                $insertQuery = "INSERT INTO galleria (url, didascalia) VALUES ('$url', '$didascalia')";
+                if (mysqli_query($mysqli, $insertQuery)) {
+                    echo "<p>Immagine aggiunta con successo!</p>";
+                    header("Refresh:0");
+                } else {
+                    echo "<p>Errore: " . mysqli_error($mysqli) . "</p><br><a href='progetto.php'>Torna indietro</a>.";
+                }
             }
         ?>
         <form method="post">
